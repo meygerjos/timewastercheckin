@@ -1,0 +1,9 @@
+[
+    {
+        "selector": ".global-nav .moments .text",
+        "action": "replaceText",
+        "content": {
+            "en-US": "Eternities"
+        }
+    }
+]

@@ -5,7 +5,7 @@
  */
 // ==UserScript==
 // @name           Time waster check-in
-// @version        0.1.0
+// @version        0.1.1
 // @namespace      net.maymay.timewastercheckin
 // @updateURL      https://github.com/meitar/timewastercheckin/raw/master/timewastercheckin.user.js
 // @description    Discourages use of time-wasting sites with a "soft" blocker that checks in about whether you really want to be on this site.
@@ -21,6 +21,7 @@
 // @grant          GM_deleteValue
 // @grant          GM_getResourceText
 // @resource selectors-www.facebook.com selectors-www.facebook.com.json
+// @resource selectors-twitter.com selectors-twitter.com.json
 // ==/UserScript==
 
 // TODO:
