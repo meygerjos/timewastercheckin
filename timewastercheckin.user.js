@@ -36,23 +36,30 @@ TRUE_COST.main = function () {
         return;
     }
 
-    var langs = Object.keys(p);
-    var lang;
-    for (var i = 0; i < navigator.languages.length; i++) {
-        if (-1 !== langs.indexOf(navigator.languages[i])) {
-            lang = navigator.languages[i];
-            break;
+    p.forEach(function (obj) {
+        if (obj['content'][navigator.language]) {
+            var text = obj['content'][navigator.language]
+        } else {
+            return;
         }
-    }
-
-    if (!lang) { return; } // we have no strings in your language
-
-    p[lang].forEach(function (obj) {
-        var selector = obj['selector'];
-        var text = obj['text'];
-        var els = document.querySelectorAll(selector);
+        var els = document.querySelectorAll(obj['selector']);
         for (var i = 0; i < els.length; i++) {
-            els[i].textContent = text;
+            switch (obj['action']) {
+                case 'appendText':
+                    if (!els[i].textContent.endsWith(text)) {
+                        els[i].textContent = els[i].textContent + text;
+                    }
+                    break;
+                case 'prependText':
+                    if (!els[i].textContent.startsWith(text)) {
+                        els[i].textContent = text + els[i].textContent;
+                    }
+                    break;
+                case 'replaceText':
+                default:
+                    els[i].textContent = text;
+                    break;
+            }
         }
     });
 };
@@ -86,4 +93,3 @@ CHECK_IN.main = function () {
 
 window.addEventListener('DOMContentLoaded', CHECK_IN.main);
 window.addEventListener('DOMContentLoaded', TRUE_COST.start);
-

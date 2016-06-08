@@ -1,8 +1,16 @@
-{
-    "en-US": [
-        {
-            "selector": ".jewelFooter .seeMore span",
-            "text": "Waste next 20 minutes"
+[
+    {
+        "selector": ".jewelFooter .seeMore span",
+        "action": "replaceText",
+        "content": {
+            "en-US": "Waste next 20 minutes"
         }
-    ]
-}
+    },
+    {
+        "selector": "#BuddylistPagelet .label",
+        "action": "appendText",
+        "content": {
+            "en-US": " - FRIENDSHIP SLOT MACHINE"
+        }
+    }
+]
