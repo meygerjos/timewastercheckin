@@ -12,5 +12,26 @@
         "content": {
             "en-US": "How many likes did I get?"
         }
+    },
+    {
+        "selector": ".notifications span.text",
+        "action": "replaceText",
+        "content": {
+            "en-US": "Play it like a slot machine"
+        }
+    },
+    {
+        "selector": ".import-prompt strong",
+        "action": "replaceText",
+        "content": {
+            "en-US": "GIVE US YOUR METADATA"
+        }
+    },
+    {
+        "selector": ".wtf-module h3",
+        "action": "replaceText",
+        "content": {
+            "en-US": "Bottomless pit of recommendations"
+        }
     }
 ]
