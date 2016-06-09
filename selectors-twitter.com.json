@@ -5,5 +5,12 @@
         "content": {
             "en-US": "Eternities"
         }
+    },
+    {
+        "selector": "[data-nav='tweets_with_replies_toggle'], [data-element-term='tweets_with_replies_toggle']",
+        "action": "replaceText",
+        "content": {
+            "en-US": "How many likes did I get?"
+        }
     }
 ]
