@@ -21,24 +21,11 @@
         }
     },
     {
-        "selector": "#u_jsonp_13_8 .sp_iNZIHX61hr2_1_5x + span",
+        "selector": "#u_jsonp_13_8 .img + span",
         "action": "appendText",
         "content": {
             "en-US": " and the NSA"
         }
-    },
-    {
-        "selector": "#u_jsonp_13_8 .sp_843e1e_1_5x + span",
-        "action": "appendText",
-        "content": {
-            "en-US": " and the NSA"
-        }
-    },
-    {
-        "selector": "#u_jsonp_13_8 .sp_6A82hfZI96s_1_5x + span",
-        "action": "appendText",
-        "content": {
-            "en-US": " and the NSA"
-        }
+    }
     }
 ]
