@@ -20,12 +20,25 @@
             "en-US": " - FRIENDSHIP SLOT MACHINE"
         }
     },
-    {
-        "selector": "#u_jsonp_13_8 .img + span",
+/*    {
+        "selector": "#u_jsonp_13_8 .sp_iNZIHX61hr2_1_5x + span",
         "action": "appendText",
         "content": {
             "en-US": " and the NSA"
         }
-    }
+    },
+    {
+        "selector": "#u_jsonp_13_8 .sp_843e1e_1_5x + span",
+        "action": "appendText",
+        "content": {
+            "en-US": " and the NSA"
+        }
+    },*/
+    {
+        "selector": "._ply ~ li i + span",
+        "action": "appendText",
+        "content": {
+            "en-US": " and the NSA"
+        }
     }
 ]
