@@ -19,12 +19,5 @@
         "content": {
             "en-US": " - FRIENDSHIP SLOT MACHINE"
         }
-    },
-    {
-        "selector": "._ply ~ li i + span",
-        "action": "appendText",
-        "content": {
-            "en-US": " and the NSA"
-        }
     }
 ]
