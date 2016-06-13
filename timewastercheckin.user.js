@@ -92,5 +92,18 @@ CHECK_IN.main = function () {
     }
 };
 
-window.addEventListener('DOMContentLoaded', CHECK_IN.main);
-window.addEventListener('DOMContentLoaded', TRUE_COST.start);
+runIfLoaded(CHECK_IN.main);
+runIfLoaded(TRUE_COST.start);
+
+//Reference: http://stackoverflow.com/questions/37798132/tampermonkey-userscript-doesnt-fire-domcontentloaded-event/37798293#37798293
+//This function runs funct if the page is already loaded, or, if it isn't already loaded, when it does load.
+function runIfLoaded(funct) {
+    'use strict';
+
+    if (document.readyState == "complete" || document.readyState == "loaded" || document.readyState == "interactive") {
+        funct();
+    } else {
+        document.addEventListener("DOMContentLoaded", funct());
+    }
+}
+
