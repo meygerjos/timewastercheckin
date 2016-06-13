@@ -12,5 +12,12 @@
         "content": {
             "en-US": " - FRIENDSHIP SLOT MACHINE"
         }
+    },
+    {
+        "selector": "#BuddylistPagelet .titlebarTextWrapper",
+        "action": "appendText",
+        "content": {
+            "en-US": " - FRIENDSHIP SLOT MACHINE"
+        }
     }
 ]
