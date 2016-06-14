@@ -18,7 +18,7 @@
         "action": "insertAfterEnd",
         "check_class": "timewastercheckin",
         "content": {
-            "en-US": "<div class='timewastercheckin' style='border: 2px solid black; padding: 30em 3em 30em 3em; background-color: red;'><div style='background-color: white;'><h2>BOTTOMLESS PIT OF NEWS FEED STORIES WILL NEVER END. Go do something else?</h2></div></div>"
+            "en-US": "<div class='timewastercheckin' style='border: 2px solid black; padding: 30em 3em; background-color: red;'><h2 style='background-color: white;'>BOTTOMLESS PIT OF NEWS FEED STORIES WILL NEVER END. Go do something else?</h2></div>"
         }
     }
 ]
