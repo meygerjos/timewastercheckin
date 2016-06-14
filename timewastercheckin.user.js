@@ -5,7 +5,7 @@
  */
 // ==UserScript==
 // @name           Time waster check-in
-// @version        0.1.2
+// @version        0.1.3
 // @namespace      net.maymay.timewastercheckin
 // @updateURL      https://github.com/meitar/timewastercheckin/raw/master/timewastercheckin.user.js
 // @description    Discourages use of time-wasting sites with a "soft" blocker that checks in about whether you really want to be on this site.
