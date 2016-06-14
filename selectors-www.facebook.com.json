@@ -7,14 +7,7 @@
         }
     },
     {
-        "selector": "#BuddylistPagelet .label",
-        "action": "appendText",
-        "content": {
-            "en-US": " - FRIENDSHIP SLOT MACHINE"
-        }
-    },
-    {
-        "selector": "#BuddylistPagelet .titlebarTextWrapper",
+        "selector": "#BuddylistPagelet .label, #BuddylistPagelet .titlebarTextWrapper",
         "action": "appendText",
         "content": {
             "en-US": " - FRIENDSHIP SLOT MACHINE"
