@@ -103,7 +103,7 @@ function runIfLoaded(funct) {
     if (document.readyState == "complete" || document.readyState == "loaded" || document.readyState == "interactive") {
         funct();
     } else {
-        document.addEventListener("DOMContentLoaded", funct());
+        document.addEventListener("DOMContentLoaded", funct;
     }
 }
 
