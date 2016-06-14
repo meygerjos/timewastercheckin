@@ -46,6 +46,16 @@ TRUE_COST.main = function () {
         var els = document.querySelectorAll(obj['selector']);
         for (var i = 0; i < els.length; i++) {
             switch (obj['action']) {
+                case 'insertBeforeBegin':
+                    if (!els[i].previousElementSibling.classList.contains(obj['check_class'])) {
+                        els[i].insertAdjacentHTML('beforebegin', text);
+                    }
+                    break;
+                case 'insertAfterEnd':
+                    if (!els[i].nextElementSibling.classList.contains(obj['check_class'])) {
+                        els[i].insertAdjacentHTML('afterend', text);
+                    }
+                    break;
                 case 'appendText':
                     if (!els[i].textContent.endsWith(text)) {
                         els[i].textContent = els[i].textContent + text;

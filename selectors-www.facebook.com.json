@@ -19,5 +19,13 @@
         "content": {
             "en-US": " - FRIENDSHIP SLOT MACHINE"
         }
+    },
+    {
+        "selector": "[id^='substream_']:nth-child(n+10)",
+        "action": "insertAfterEnd",
+        "check_class": "timewastercheckin",
+        "content": {
+            "en-US": "<div class='timewastercheckin' style='border: 1px solid gray; padding: 3em;'><h2>BOTTOMLESS PIT OF NEWS FEED STORIES WILL NEVER END. Go do something else?</h2></div>"
+        }
     }
 ]
