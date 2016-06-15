@@ -45,6 +45,9 @@ TRUE_COST.main = function () {
         }
         var els = document.querySelectorAll(obj['selector']);
         for (var i = 0; i < els.length; i++) {
+            if (obj.hasOwnProperty('exceptions') && obj['exceptions'].indexOf(els[i].textContent)!=-1){
+                continue;
+            }
             switch (obj['action']) {
                 case 'insertBeforeBegin':
                     if (!els[i].previousElementSibling.classList.contains(obj['check_class'])) {
