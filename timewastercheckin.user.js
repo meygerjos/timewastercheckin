@@ -22,7 +22,6 @@
 // @grant          GM_getResourceText
 // @resource selectors-www.facebook.com selectors-www.facebook.com.json
 // @resource selectors-twitter.com selectors-twitter.com.json
-// @require http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
 
 // TODO:
