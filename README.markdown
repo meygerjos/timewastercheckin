@@ -8,6 +8,11 @@ It also replaces parts of the user interface on those sites that are designed to
 
 If you have suggestions for what other elements to modify, please open a [new issue](https://github.com/meitar/timewastercheckin/issues/new) or send a pull request with a modification to the JSON file used to make the change. (Here's the [file used for changing Facebook](https://github.com/meitar/timewastercheckin/blob/master/selectors-www.facebook.com.json).)
 
+# How to install:
+
+1. If you haven't already, download a userscript manager such as [TamperMonkey](https://tampermonkey.net/) or [GreaseMonkey](http://www.greasespot.net/) (only for FireFox).  These are browser extensions that allow you to run userscripts such as this one.
+2. Go [here](https://github.com/meitar/timewastercheckin/raw/master/timewastercheckin.user.js) and click on "Install".
+
 # To do:
 
 * Add a feature that allows customization of which sites are "time wasters."
