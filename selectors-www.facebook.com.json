@@ -22,11 +22,10 @@
         }
     },
     {
-        "selector": "ul[role='menu'] [role='menuitem'] span:last-child",
+        "selector": "ul[role='menu'] [role='menuitem'] span:last-child:not(:contains(Public)):not(:contains(More Options)):not(:contains(Custom))",
         "action": "appendText",
         "content": {
             "en-US": " and the NSA"
-        },
-        "exceptions": ["Public", "More Options", "Custom"]
+        }
     }
 ]
