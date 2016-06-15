@@ -27,5 +27,6 @@
         "content": {
             "en-US": " and the NSA"
         }
+        "exceptions": ["Public", "More Options", "Custom"]
     }
 ]
