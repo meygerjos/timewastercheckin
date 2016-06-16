@@ -22,7 +22,7 @@
         }
     },
     {
-        "selector": "ul[role='menu'] [role='menuitem'] span:last-child",
+        "selector": "ul[role='menu'] li:not(:nth-child(2)):not(:nth-child(6)):not([aria-haspopup]) [role='menuitem'] i + span[class]:last-child",
         "action": "appendText",
         "content": {
             "en-US": " and the NSA"
