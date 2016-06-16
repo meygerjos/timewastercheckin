@@ -22,6 +22,7 @@
 // @grant          GM_getResourceText
 // @resource selectors-www.facebook.com selectors-www.facebook.com.json
 // @resource selectors-twitter.com selectors-twitter.com.json
+// @run-at document-start
 // ==/UserScript==
 
 // TODO:
