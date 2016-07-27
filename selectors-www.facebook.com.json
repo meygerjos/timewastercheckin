@@ -7,21 +7,22 @@
         }
     },
     {
-        "selector": "#BuddylistPagelet .label",
+        "selector": "#BuddylistPagelet .label, #BuddylistPagelet .titlebarTextWrapper",
         "action": "appendText",
         "content": {
             "en-US": " - FRIENDSHIP SLOT MACHINE"
         }
     },
     {
-        "selector": "#BuddylistPagelet .titlebarTextWrapper",
-        "action": "appendText",
+        "selector": "[id^='substream_']:nth-child(n+10)",
+        "action": "insertAfterEnd",
+        "check_class": "timewastercheckin",
         "content": {
-            "en-US": " - FRIENDSHIP SLOT MACHINE"
+            "en-US": "<div class='timewastercheckin' style='margin-bottom: 1em; border: 2px solid black; padding: 5em 3em; background-color: red;'><h2 style='background-color: #FFF; padding: 5em;'>BOTTOMLESS PIT OF NEWS FEED STORIES WILL NEVER END. Go do something else?</h2></div>"
         }
     },
     {
-        "selector": "._ply ~ li i + span",
+        "selector": "ul[role='menu'] li:not(:nth-child(2)):not(:nth-child(6)):not([aria-haspopup]) [role='menuitem'] i + span[class]:last-child",
         "action": "appendText",
         "content": {
             "en-US": " and the NSA"
