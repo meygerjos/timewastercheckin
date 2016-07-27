@@ -11,7 +11,7 @@ If you have suggestions for what other elements to modify, please open a [new is
 # How to install:
 
 1. If you haven't already, download a userscript manager such as [TamperMonkey](https://tampermonkey.net/) or [GreaseMonkey](http://www.greasespot.net/) (only for Firefox).  These are browser extensions that allow you to run userscripts such as this one.
-2. Go [here](https://github.com/meitar/timewastercheckin/raw/master/timewastercheckin.user.js) and click on "Install".
+2. Go [here](https://github.com/meygerjos/timewastercheckin/raw/master/timewastercheckin.user.js) and click on "Install".
 
 # To do:
 
